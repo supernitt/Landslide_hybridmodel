@@ -1,0 +1,4 @@
+- AUT_Boundary.zip contains the shapefile of study area's boundary.
+- LS_inventory.zip contains the shapefile of training dataset (both landslide occurrence and non-occurrence).
+- Landslide_factor_stacking.md is the link to download the landslide conditioning factors. It is a stacking raster file.
+- The python scripts (landslide_cnnlgbm.py, landslide_cnnrf.py, and landslide_cnnxgb.py) provide the training, validation, and prediction. You have to specify the directory path, which can be found at the top of the script. Please make sure that the NVIDIA GPU is available for your computing. Also, you need to install the python and its libraries.
